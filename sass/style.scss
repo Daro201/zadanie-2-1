@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+display: flex;	
+ }
+
+.contain {
+  margin: 0;
+  background: url(https://images.pexels.com/photos/921319/pexels-photo-921319.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  color: white;
+  text-align: center;
+  padding: 5% 20%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .contain h1 {
+    padding: 3%; }
+  .contain p {
+    padding: 2%; }
+  .contain .gray {
+    background-color: rgba(0, 0, 0, 0.5); }
+
+@media (min-width: 968px) {
+  div h1 {
+    font-size: 50px; }
+  div p {
+    padding: 2% 20%;
+    font-size: 26px; } }
+@media (max-width: 767px) {
+  div {
+    padding: 5%; } }
